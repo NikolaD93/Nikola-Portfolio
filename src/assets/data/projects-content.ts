@@ -1,7 +1,6 @@
 export type Project = {
   title: string
   summary: string
-  outcome: string
   techStack: string[]
   imageSrc: string
   imageAlt: string
@@ -11,33 +10,30 @@ export type Project = {
 
 export const featuredProjects: Project[] = [
   {
-    title: 'Streaming Platform Dashboard',
+    title: 'Cardano Talent',
     summary:
-      'Developed a React and TypeScript dashboard for managing OTT content lifecycle, release schedules, and viewer insights.',
-    outcome: 'Improved publishing workflows and reduced operational overhead with a unified internal tool.',
-    techStack: ['React', 'TypeScript', 'Next.js', 'REST APIs', 'Tailwind CSS'],
-    imageSrc: '/images/image-1.webp',
-    imageAlt: 'Analytics and OTT dashboard project preview',
-    liveUrl: '#'
+      'Hiring platform focused on secure, transparent, and efficient talent matching, helping employers connect with qualified candidates faster.',
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+    imageSrc: '/images/project-1.png',
+    imageAlt: 'Cardano Talent hiring platform interface preview',
+    liveUrl: 'https://cardano-talent.vercel.app/'
   },
   {
-    title: 'CI/CD Modernization Initiative',
+    title: 'Crypto Influencer Platform',
     summary:
-      'Designed and standardized multi-environment pipelines for build, test, and deployment with safer release gates.',
-    outcome: 'Decreased deployment lead time and increased release reliability across multiple product teams.',
-    techStack: ['Jenkins', 'Docker', 'Kubernetes', 'Nexus', 'GitHub Actions'],
-    imageSrc: '/images/image-2.webp',
-    imageAlt: 'Pipeline and DevOps automation project preview',
+      'Platform for connecting crypto brands with influencers, featuring profile discovery, and performance-focused user flows.',
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+    imageSrc: '/images/project-2.png',
+    imageAlt: 'Crypto Influencer Platform campaign dashboard preview',
+    liveUrl: 'https://crypto-influencer.vercel.app/'
+  },
+  {
+    title: 'Personal Finance App',
+    summary:
+      'Personal finance experience for tracking income, expenses, and budgeting goals through dashboards and simple planning tools.',
+    techStack: ['JavaScript', 'React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+    imageSrc: '',
+    imageAlt: '',
     repoUrl: '#'
-  },
-  {
-    title: 'High-Performance Web Experience',
-    summary:
-      'Built and optimized a customer-facing web app with strong performance budgets, reusable UI architecture, and SEO-first rendering.',
-    outcome: 'Delivered faster page loads and smoother interactions while keeping long-term maintainability high.',
-    techStack: ['React', 'TypeScript', 'Next.js', 'Web Performance', 'SSR'],
-    imageSrc: '/images/og-image.png',
-    imageAlt: 'High-performance web application project preview',
-    liveUrl: '#'
   }
 ]

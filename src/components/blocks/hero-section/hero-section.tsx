@@ -23,7 +23,7 @@ function HeroSection() {
           <div className='border-primary-200/40 dark:border-primary-800/20 absolute -inset-6 -rotate-6 rounded-full border border-dashed'></div>{' '}
         </div>
         <h2 className='text-2xl font-semibold md:text-3xl lg:text-4xl'>Nikola Dojcinovic</h2>
-        <p className='text-muted-foreground text-xl'>Software Engineer</p>
+        <p className='text-muted-foreground text-xl'>Frontend / Full-Stack Developer</p>
         <p className='text-muted-foreground max-w-lg text-center text-sm md:text-base'>
           I build high-performance web and OTT experiences with React and TypeScript, backed by robust CI/CD automation.
         </p>
