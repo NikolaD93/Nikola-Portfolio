@@ -8,6 +8,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 import { cn } from '@/lib/utils'
 
 import './globals.css'
+import { TooltipProvider } from '@/components/ui/tooltip'
 
 const sora = Sora({
   variable: '--font-sora',
@@ -117,7 +118,7 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
     >
       <body className='flex min-h-full w-full flex-auto flex-col'>
         <ThemeProvider attribute='class' enableSystem={false} disableTransitionOnChange>
-          {children}
+          <TooltipProvider>{children}</TooltipProvider>
         </ThemeProvider>
       </body>
     </html>

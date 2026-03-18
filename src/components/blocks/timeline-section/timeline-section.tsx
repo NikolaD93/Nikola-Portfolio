@@ -1,6 +1,4 @@
-import V1_3_0 from '@/components/blocks/changelog-section/v1_3_0'
-import V1_2_0 from '@/components/blocks/changelog-section/v1_2_0 '
-import V1_1_0 from '@/components/blocks/changelog-section/v1_1_0 '
+import TimelineContent from '@/components/blocks/timeline-section/timeline-content'
 
 function TimelineSection() {
   return (
@@ -14,9 +12,7 @@ function TimelineSection() {
               and challenges that taught me how to build with impact.
             </p>
           </div>
-          <V1_3_0 />
-          <V1_2_0 />
-          <V1_1_0 />
+          <TimelineContent />
         </div>
       </div>
     </section>

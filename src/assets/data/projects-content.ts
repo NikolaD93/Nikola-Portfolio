@@ -13,7 +13,7 @@ export const featuredProjects: Project[] = [
     title: 'Cardano Talent',
     summary:
       'Hiring platform focused on secure, transparent, and efficient talent matching, helping employers connect with qualified candidates faster.',
-    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Shadcn'],
     imageSrc: '/images/project-1.png',
     imageAlt: 'Cardano Talent hiring platform interface preview',
     liveUrl: 'https://cardano-talent.vercel.app/'
@@ -22,7 +22,7 @@ export const featuredProjects: Project[] = [
     title: 'Crypto Influencer Platform',
     summary:
       'Platform for connecting crypto brands with influencers, featuring profile discovery, and performance-focused user flows.',
-    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Motion'],
     imageSrc: '/images/project-2.png',
     imageAlt: 'Crypto Influencer Platform campaign dashboard preview',
     liveUrl: 'https://crypto-influencer.vercel.app/'
@@ -31,7 +31,7 @@ export const featuredProjects: Project[] = [
     title: 'Personal Finance App',
     summary:
       'Personal finance experience for tracking income, expenses, and budgeting goals through dashboards and simple planning tools.',
-    techStack: ['JavaScript', 'React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Node', 'Express', 'MongoDB'],
     imageSrc: '',
     imageAlt: '',
     repoUrl: '#'

@@ -1,5 +1,5 @@
 import HeroSection from '@/components/blocks/hero-section/hero-section'
-import TimelineSection from '@/components/blocks/changelog-section/timeline-section'
+import TimelineSection from '@/components/blocks/timeline-section/timeline-section'
 import ContactSection from '@/components/blocks/contact-section/contact-section'
 import ProjectsSection from '@/components/blocks/projects-section/projects-section'
 import SkillsSection from '@/components/blocks/skills-section/skills-section'

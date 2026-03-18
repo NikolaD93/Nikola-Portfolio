@@ -1,3 +1,6 @@
+import { CraftButton, CraftButtonIcon, CraftButtonLabel } from '@/components/ui/craft-button'
+import { MailIcon } from 'lucide-react'
+
 function HeroSection() {
   return (
     <section className='-mt-17.5 pt-17.5'>
@@ -27,6 +30,16 @@ function HeroSection() {
         <p className='text-muted-foreground max-w-lg text-center text-sm md:text-base'>
           I build high-performance web and OTT experiences with React and TypeScript, backed by robust CI/CD automation.
         </p>
+        <div className='pt-2'>
+          <a href={`mailto:nikola.dojcinovic@example.com`}>
+            <CraftButton>
+              <CraftButtonIcon>
+                <MailIcon className='size-3 stroke-2 transition-transform duration-500' />
+              </CraftButtonIcon>
+              <CraftButtonLabel>Email Me</CraftButtonLabel>
+            </CraftButton>
+          </a>
+        </div>
       </div>
     </section>
   )
