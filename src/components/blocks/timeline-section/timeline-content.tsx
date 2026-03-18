@@ -9,10 +9,10 @@ function TimelineContent() {
       {timelineData.map((item, index) => (
         <TimelineItem key={`${item.company}-${item.date}-${index}`} date={item.date} position={item.position}>
           <div className='space-y-4'>
-            <div className='flex justify-between'>
+            <div className='flex flex-col justify-between lg:flex-row'>
               <h3 className='text-xl font-semibold'>{item.company}</h3>
               <h3>
-                <MapPin className='ml-1 inline-block' /> {item.location}
+                <MapPin className='inline-block lg:ml-1' /> {item.location}
               </h3>
             </div>
             <p className='text-muted-foreground text-sm'>{item.summary}</p>

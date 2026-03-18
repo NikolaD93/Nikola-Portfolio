@@ -147,13 +147,13 @@ export function TechIcon({ skill, className, content }: TechIconProps) {
       content: 'Sonar'
     },
     shadcn: {
-      icon: <ShadcnUiIcon className='h-5 w-5' />,
-      wrapperClassName: 'bg-[#FFFFFF]/10 border border-[#FFFFFF]/30',
+      icon: <ShadcnUiIcon className='h-5 w-5 [&_path]:stroke-zinc-900 dark:[&_path]:stroke-zinc-100' />,
+      wrapperClassName: 'bg-zinc-900/10 border border-zinc-900/25 dark:bg-zinc-100/10 dark:border-zinc-100/30',
       content: 'Shadcn'
     },
     motion: {
-      icon: <MotionIcon className='h-5 w-5' />,
-      wrapperClassName: 'bg-[#FFF312]/10 border border-[#FFF312]/30',
+      icon: <MotionIcon className='h-5 w-5 [&_path]:fill-zinc-900 dark:[&_path]:fill-[#FFF312]' />,
+      wrapperClassName: 'bg-[#FFF312]/20 dark:bg-[#FFF312]/10 border border-[#FFF312] dark:border-[#FFF312]/50',
       content: 'Motion'
     },
     sentry: {
@@ -187,8 +187,8 @@ export function TechIcon({ skill, className, content }: TechIconProps) {
       content: 'Node.js'
     },
     express: {
-      icon: <ExpressdotjsIcon className='h-5 w-5' />,
-      wrapperClassName: 'bg-[#000000]/10 border border-[#000000]/30',
+      icon: <ExpressdotjsIcon className='h-5 w-5 [&_path]:stroke-zinc-900 dark:[&_path]:stroke-zinc-100' />,
+      wrapperClassName: 'bg-[#000000]/10 border dark:border-[#FFFFFF]/30 border-[#000000]/30',
       content: 'Express'
     },
     mongodb: {
@@ -212,7 +212,7 @@ export function TechIcon({ skill, className, content }: TechIconProps) {
           loading='lazy'
         />
       ),
-      wrapperClassName: 'bg-[#000000]/10 border border-[#000000]/30',
+      wrapperClassName: 'bg-[#000000]/10 dark:bg-[#FFFFFF]/10 border border-[#000000]/30',
       content: 'Next.js'
     },
     'next.js': {
@@ -226,7 +226,7 @@ export function TechIcon({ skill, className, content }: TechIconProps) {
           loading='lazy'
         />
       ),
-      wrapperClassName: 'bg-[#000000]/10 border border-[#000000]/30',
+      wrapperClassName: 'bg-[#000000]/10 dark:bg-[#FFFFFF]/10 dark:border-zinc-100/30 border border-[#000000]/30',
       content: 'Next.js'
     },
     'next js': {
@@ -240,7 +240,7 @@ export function TechIcon({ skill, className, content }: TechIconProps) {
           loading='lazy'
         />
       ),
-      wrapperClassName: 'bg-[#000000]/10 border border-[#000000]/30',
+      wrapperClassName: 'bg-[#000000]/10 dark:bg-[#FFFFFF]/10 dark:border-zinc-100/30 border border-[#000000]/30',
       content: 'Next.js'
     },
     nextdotjs: {
@@ -276,7 +276,6 @@ export function TechIcon({ skill, className, content }: TechIconProps) {
       <TooltipTrigger>
         <span
           className={`inline-flex size-8 items-center justify-center rounded-md ${iconItem?.wrapperClassName ?? 'bg-secondary/80 border border-black/10 text-black dark:border-white/15 dark:text-white'} ${className ?? ''}`}
-          title={skill}
           aria-label={skill}
         >
           {iconItem?.icon ?? <Code2 className={iconClassName} />}
