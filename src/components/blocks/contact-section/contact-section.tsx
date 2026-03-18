@@ -2,7 +2,7 @@ import { MailIcon } from 'lucide-react'
 
 import { CraftButton, CraftButtonLabel, CraftButtonIcon } from '@/components/ui/craft-button'
 
-const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? 'nikola.dojcinovic@example.com'
+const contactEmail = 'nikoladojcinovic9@gmail.com'
 
 function ContactSection() {
   return (

@@ -31,7 +31,7 @@ function HeroSection() {
           I build high-performance web and OTT experiences with React and TypeScript, backed by robust CI/CD automation.
         </p>
         <div className='pt-2'>
-          <a href={`mailto:nikola.dojcinovic@example.com`}>
+          <a href={`mailto:nikoladojcinovic9@gmail.com`}>
             <CraftButton>
               <CraftButtonIcon>
                 <MailIcon className='size-3 stroke-2 transition-transform duration-500' />
