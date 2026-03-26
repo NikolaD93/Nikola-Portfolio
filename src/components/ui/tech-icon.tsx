@@ -26,7 +26,8 @@ import {
   Mongodb as MongodbIcon,
   Redux as ReduxIcon,
   Supabase as SupabaseIcon,
-  Figma as FigmaIcon
+  Figma as FigmaIcon,
+  ClaudeCode as ClaudeCodeIcon
 } from '@thesvg/react'
 import { Code2 } from 'lucide-react'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
@@ -266,6 +267,37 @@ export function TechIcon({ skill, className, content }: TechIconProps) {
       icon: <FigmaIcon className='h-5 w-5' />,
       wrapperClassName: 'bg-[#F24E1E]/10 border border-[#F24E1E]/30',
       content: 'Figma'
+    },
+    copilot: {
+      icon: (
+        <img
+          src='https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/github-copilot/default.svg'
+          alt='GitHub Copilot'
+          width='24'
+          height='24'
+          className='invert dark:invert-0'
+        />
+      ),
+      wrapperClassName: 'bg-slate-500/10 border border-slate-500/30 dark:bg-white/10 dark:border-white/30',
+      content: 'GitHub Copilot'
+    },
+    'github copilot': {
+      icon: (
+        <img
+          src='https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/github-copilot/default.svg'
+          alt='GitHub Copilot'
+          width='24'
+          height='24'
+          className='invert dark:invert-0'
+        />
+      ),
+      wrapperClassName: 'bg-slate-500/10 border border-slate-500/30 dark:bg-white/10 dark:border-white/30',
+      content: 'GitHub Copilot'
+    },
+    claude: {
+      icon: <ClaudeCodeIcon className='h-5 w-5' />,
+      wrapperClassName: 'bg-[#D97757]/10 border border-[#D97757]/30',
+      content: 'Claude'
     }
   }
 

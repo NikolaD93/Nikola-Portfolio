@@ -18,7 +18,8 @@ export const timelineData = [
       'Playwright',
       'Jest',
       'Sentry',
-      'Firebase'
+      'Firebase',
+      'Claude'
     ],
     highlights: [
       'Developed and maintained Smart TV applications for global platforms including Samsung, LG, Hisense, and Philips',
@@ -73,7 +74,9 @@ export const timelineData = [
       'Node',
       'MongoDB',
       'Jest',
-      'Supabase'
+      'Supabase',
+      'GitHub Copilot',
+      'Claude'
     ],
     highlights: [
       'Developed and optimized full-stack web applications using React, Next.js, Node.js, Express.js, and MongoDB',
