@@ -121,6 +121,8 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
           <TooltipProvider>{children}</TooltipProvider>
         </ThemeProvider>
       </body>
+      
+      <script src="https://chatbot-widget-weld-six.vercel.app/widget.iife.js" data-tenant-id="63be4ff9-21e6-4026-8a96-755d94e5be02" defer=""></script>
     </html>
   )
 }
