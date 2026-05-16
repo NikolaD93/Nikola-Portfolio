@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils'
 
 import './globals.css'
 import { TooltipProvider } from '@/components/ui/tooltip'
+import Script from 'next/script'
 
 const sora = Sora({
   variable: '--font-sora',
@@ -120,9 +121,12 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
         <ThemeProvider attribute='class' enableSystem={false} disableTransitionOnChange>
           <TooltipProvider>{children}</TooltipProvider>
         </ThemeProvider>
+        <Script
+          src="https://chatbot-widget-weld-six.vercel.app/widget.iife.js"
+          data-tenant-id="63be4ff9-21e6-4026-8a96-755d94e5be02"
+          strategy="lazyOnload"
+        />
       </body>
-      
-      <script src="https://chatbot-widget-weld-six.vercel.app/widget.iife.js" data-tenant-id="63be4ff9-21e6-4026-8a96-755d94e5be02" defer=""></script>
     </html>
   )
 }
