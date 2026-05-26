@@ -123,7 +123,7 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
         </ThemeProvider>
         <Script
           src='https://chatbot-widget-weld-six.vercel.app/widget.iife.js'
-          data-tenant-id='c7eb2898-00c9-40d3-8a6f-47f9a56d234e'
+          data-tenant-id='1e95766e-cac2-419e-a2e1-af6f54f30a5f'
           strategy='lazyOnload'
         />
       </body>
